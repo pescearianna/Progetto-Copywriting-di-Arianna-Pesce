@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ebedf2;
+  color: #0e0e17;
+  overflow-x: hidden;
+  font-family: "Open Sans", "Verdana", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #313834;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #21382b;
+}
+
+h1, h2, h3 {
+  font-family: "Noto Serif", serif;
+}
+
+header {
+  background-color: #0e0e17;
+  color: whitesmoke;
+}
+
+#data-article {
+  color: #4a4a6c;
+}
+
+@media (min-width: 576px) {
+  .main-sec {
+    margin: 4rem 8rem 3rem 8rem;
+    width: 80%;
+  }
+  .esp-left {
+    margin-left: 1rem;
+  }
+  .container {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .container img {
+    border-radius: 20px;
+    margin: 0.5rem 2rem;
+    max-width: 50%;
+    align-self: center;
+  }
+  .container .img-rag {
+    max-width: 90%;
+    border-radius: 10px;
+  }
+  .tips {
+    margin: 0 4rem;
+  }
+}
+@media (max-width: 576px) {
+  article {
+    margin: 1rem 1rem;
+  }
+  .img-rag {
+    display: none;
+  }
+  .container img {
+    border-radius: 20px;
+    margin: 0.5rem;
+    max-width: 100%;
+    align-self: center;
+  }
+}
+aside {
+  width: 29%;
+  background-color: #21382b;
+  height: -webkit-fill-available;
+}
+
+.sommario {
+  background-color: rgb(216, 205, 192);
+  border: solid 3px rgb(119, 110, 98);
+  border-radius: 20px;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+}
+
+.no {
+  margin-bottom: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.tips {
+  margin: 0 1.3rem;
+  background-color: rgb(179, 237, 179);
+  border-radius: 20px;
+  border: 2px solid rgb(75, 110, 75);
+  padding: 1rem;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.group img {
+  max-width: 80%;
+}
+
+#fonti {
+  margin-left: 2rem;
+}
+
+footer {
+  padding: 1rem 0;
+  background-color: #0e0e17;
+  color: #ebedf2;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */

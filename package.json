@@ -1,0 +1,15 @@
+{
+  "name": "progetto-copywriting-di-arianna-pesce",
+  "version": "1.0.0",
+  "description": "Progetto Copywriting di Arianna Pesce | Marketing Master | start2impact University",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.90.0"
+  }
+}

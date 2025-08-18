@@ -22,31 +22,88 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #21382b; }
 
+
 h1, h2, h3{
   font-family: "Noto Serif", serif;
 }
 
   header {
-   
     background-color: #0e0e17;
     color: whitesmoke;
   }
 
-  main{
-   
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-  }
+  
 
-  .main-sec {
-    margin: 4rem 1rem 3rem 4rem;
-    width: 80%;
-  }
 
+  
+  
   #data-article {
     color: #4a4a6c;
   }
+  
+    @media (min-width: 576px) {
+  //     main{
+   
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: flex-start;
+  // }
+      .main-sec {
+      margin: 4rem 8rem 3rem 8rem;
+      width: 80%;
+    }
+  .esp-left{
+      margin-left: 1rem;
+    }
+    
+    .container{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    img{
+    border-radius: 20px;
+    margin: 0.5rem 2rem;
+    max-width: 50%;
+        align-self: center;
+
+  }
+  .img-rag{
+    max-width: 90%;
+    border-radius: 10px;
+  }
+  }
+
+  .tips{
+    margin: 0 4rem;
+  }
+
+    }
+
+
+    @media (max-width: 576px){
+      article{
+        margin: 1rem 1rem;
+      }
+
+        .img-rag{
+          display: none;
+        }
+
+        .container{
+          img{
+          
+    border-radius: 20px;
+    margin: 0.5rem;
+    max-width: 100%;
+        align-self: center;
+
+  }
+          
+        }
+
+
+    }
 
   aside{
     width: 29%;
@@ -54,9 +111,7 @@ h1, h2, h3{
     height: -webkit-fill-available;
   }
 
-  .esp-left{
-    margin-left: 1rem;
-  }
+ 
 
   .sommario{
     background-color: rgb(216, 205, 192);
@@ -66,26 +121,11 @@ h1, h2, h3{
     margin-bottom: 1rem;
   }
 
-  .container{
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items:flex-start;
-  }
+  
 
-  .container img{
-    border-radius: 20px;
-    margin: 0.5rem 2rem;
-    max-width: 50%;
-        align-self: center;
+  
 
-  }
 
-  .img-rag{
-    width: auto;
-    height: 525px;
-    border-radius: 10px;
-  }
 
   .no{
     margin-bottom: 0;
@@ -96,7 +136,7 @@ h1, h2, h3{
   }
 
   .tips{
-    margin: 0 4rem;
+    margin: 0 1.3rem;
     background-color: rgb(179, 237, 179);
     border-radius: 20px;
     border: 2px solid rgb(75, 110, 75);
@@ -111,7 +151,7 @@ h1, h2, h3{
   }
 
   .group img {
-    max-width: 90%;
+    max-width: 80%;
   }
 
 #fonti{

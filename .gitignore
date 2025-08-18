@@ -1,0 +1,23 @@
+# Dipendenze
+node_modules/
+
+# Lock file (non verrà tracciato)
+package-lock.json
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
