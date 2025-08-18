@@ -37,11 +37,15 @@ header {
   color: whitesmoke;
 }
 
+.sh {
+  box-shadow: 2px 2px 8px #171717, -2px -2px 8px #171717;
+}
+
 #data-article {
   color: #4a4a6c;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 948px) {
   .main-sec {
     margin: 4rem 8rem 3rem 8rem;
     width: 80%;
@@ -68,8 +72,11 @@ header {
   .tips {
     margin: 0 4rem;
   }
+  #fonti {
+    margin: 2rem 10rem 3rem 10rem;
+  }
 }
-@media (max-width: 576px) {
+@media (max-width: 948px) {
   article {
     margin: 1rem 1rem;
   }
@@ -81,6 +88,9 @@ header {
     margin: 0.5rem;
     max-width: 100%;
     align-self: center;
+  }
+  #fonti {
+    margin-left: 2rem;
   }
 }
 aside {
@@ -94,7 +104,7 @@ aside {
   border: solid 3px rgb(119, 110, 98);
   border-radius: 20px;
   padding: 1rem 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
 }
 
 .no {
@@ -122,10 +132,6 @@ aside {
 
 .group img {
   max-width: 80%;
-}
-
-#fonti {
-  margin-left: 2rem;
 }
 
 footer {
