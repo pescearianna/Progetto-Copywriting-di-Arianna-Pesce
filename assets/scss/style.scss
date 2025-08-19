@@ -176,4 +176,17 @@ footer {
   display: flex;
   justify-content: space-around;
   align-content: center;
+  padding: 1rem 5rem;
+
+  .disclaimer{
+    width: 60%;
+  }
+  .social a{
+    margin-left: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 1rem;
+    color: #ebedf2;
+  }
 }
